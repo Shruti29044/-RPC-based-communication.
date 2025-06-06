@@ -1,4 +1,3 @@
-Project-Part 1:
 A multi-threaded file server that supports the upload, download, delete, and rename file operations has been put into place. Used many folders to store files that were either posted to the server or transferred to the client.
 Implementation:
 The user is given an option; to upload, download, delete, rename, and terminate the software on the client side, the user is to input 1, 2, 3, 4, and 5, respectively.
