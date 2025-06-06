@@ -4,6 +4,8 @@ The user is given an option; to upload, download, delete, rename, and terminate 
 To interact through RPC, the client and server ends of the communication chain require the Java RMI libraries.
 Launch the Windows VSCode terminal to start the server as well as Client on a different instance.
 
+PROJECT PART 1:
+
 UPLOAD
 Enter option 1 from the aforesaid client side to upload. The file will be routed to or published to the server.
 
@@ -18,18 +20,22 @@ File will be deleted from the server.
 RENAME:
 Select option 4 on the client side and enter the old and new file names. The aforementioned file would receive a new name that was supplied both at the server and client ends.
 
-1 Project Part 2:
+Project Part 2: 
+
 An RPC-emulating Java application that simulates a synchronized folder system, such as Dropbox on Microsoft Windows.
-1.1  Implementation:
+Implementation:
+
 The user is prompted to input the client- and server-side folders that need to be synchronized.
 On the client side, a timer thread is created every 10 seconds.
 The set of file names stored every 10 seconds is stored in the Folder of the new files, and it checks to see whether a new file is added, removed, or updated.
 If there is a modification or update to an existing file, the file is posted to the server. A new file is uploaded to the server if one is added. A file's deletion updates the server with the new information.
 If a file name is changed at the client end, the new file is uploaded to the server after the old file has been deleted.
 
-2 Project Part 3:
+Project Part 3:
+
 A Java program that commutes add and sort functionality synchronously and asynchronously via RPC.
-2.1 Implementation:
+Implementation: 
+
 To execute asynchronous add and sort, a straightforward Java call from the client to the server was used.
 The user is then prompted to input option 1 or option 2 for adding or sorting depending on the synchronous/asynchronous choice they choose.
 If addition is selected, the user is prompted to input the numbers to add, and the outcome is displayed on the prompt.
@@ -37,11 +43,13 @@ When doing synchronous computations, such as addition or sorting, the client mus
 In the meanwhile, for asynchronous computation, the client doesn't wait for the server to send results; instead, the server returns none at the conclusion, and the client then requests the results.
 
 Technologies Used:
+
 Using Java, the application was designed and created to meet the stated need.
 Developed the aforementioned program on a Windows setting. Running this program would be sufficient on any Windows PC.
 Applied the idea of multithreading.
 
 Things Learnt:
+
 Has solid grasp of the client-server architecture.
 Acquired knowledge of the fundamentals, applications, and usage of RPC.
 Practical experience with Java programming and multi-threading.
