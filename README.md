@@ -20,7 +20,7 @@ File will be deleted from the server.
 RENAME:
 Select option 4 on the client side and enter the old and new file names. The aforementioned file would receive a new name that was supplied both at the server and client ends.
 
-Project Part 2: 
+PROJECT PART 2: 
 
 An RPC-emulating Java application that simulates a synchronized folder system, such as Dropbox on Microsoft Windows.
 Implementation:
@@ -31,7 +31,7 @@ The set of file names stored every 10 seconds is stored in the Folder of the new
 If there is a modification or update to an existing file, the file is posted to the server. A new file is uploaded to the server if one is added. A file's deletion updates the server with the new information.
 If a file name is changed at the client end, the new file is uploaded to the server after the old file has been deleted.
 
-Project Part 3:
+PROJECT PART 3:
 
 A Java program that commutes add and sort functionality synchronously and asynchronously via RPC.
 Implementation: 
